@@ -1,0 +1,31 @@
+{
+  "name": "smartsave-personal-care-shopping",
+  "version": "1.0.0",
+  "description": "Personal Care & Shopping Assistant page for SmartSave website with interactive chatbot",
+  "main": "personal-care-shopping.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=personal-care-shopping.html",
+    "dev": "live-server --port=3000 --open=personal-care-shopping.html --watch=.",
+    "build": "echo 'No build step required for static site'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "smartsave",
+    "personal-care",
+    "shopping",
+    "budgeting",
+    "chatbot",
+    "student-finance"
+  ],
+  "author": "Team Migraine Workers",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "prettier": "^3.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julianwyh/SmartSave"
+  },
+  "homepage": "https://julianwyh.github.io/SmartSave/"
+}
