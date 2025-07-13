@@ -50,11 +50,11 @@ body {
 }
 
 .logo-smart {
-    color: #4f46e5;
+    color: #9E89C1;
 }
 
 .logo-save {
-    color: #059669;
+    color: #3fa484;
 }
 
 .tagline {
@@ -80,7 +80,7 @@ body {
 }
 
 .nav-link:hover {
-    background: #4f46e5;
+    background: #9E89C1;
     color: white;
     transform: translateY(-2px);
 }
@@ -98,7 +98,7 @@ body {
     text-align: center;
     margin-bottom: 3rem;
     padding: 3rem 0;
-    background: linear-gradient(135deg, #4f46e5 0%, #4f46e5 100%);
+    background: linear-gradient(135deg, #9E89C1 0%, #9E89C1 100%);
     border-radius: 20px;
     color: white;
     position: relative;
@@ -124,6 +124,15 @@ body {
 .hero-icon {
     font-size: 4rem;
     margin-bottom: 1rem;
+}
+
+.hero-icon-img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero h1 {
@@ -203,7 +212,7 @@ body {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     text-align: center;
     transition: all 0.3s ease;
-    border-top: 4px solid #4f46e5;
+    border-top: 4px solid #9E89C1;
 }
 
 .feature-card:hover {
@@ -242,7 +251,7 @@ body {
 }
 
 .chatbot-header {
-    background: linear-gradient(135deg, #4f46e5, #6366f1);
+    background: linear-gradient(135deg, #9E89C1, #6366f1);
     color: white;
     padding: 1.5rem;
     display: flex;
@@ -265,6 +274,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.bot-avatar-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 .chatbot-title h3 {
